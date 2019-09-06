@@ -1,6 +1,11 @@
 # kube-proxy
 
-拉取 kube-proxy:v1.13.3 镜像
+历史版本
+
+- v1.15.3
+- v1.13.3
+
+拉取 kube-proxy:tag 镜像
 
 ```shell
 docker pull kainonly/kube-proxy:v1.13.3
