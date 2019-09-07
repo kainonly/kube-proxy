@@ -8,17 +8,17 @@
 拉取 kube-proxy:tag 镜像
 
 ```shell
-docker pull kainonly/kube-proxy:v1.13.3
+docker pull kainonly/kube-proxy:tag
 ```
 
 重命名镜像
 
 ```shell
-docker tag kainonly/kube-proxy:v1.13.3 k8s.gcr.io/kube-proxy:v1.13.3
+docker tag kainonly/kube-proxy:tag k8s.gcr.io/kube-proxy:tag
 ```
 
 删除镜像
 
 ```shell
-docker rmi kainonly/kube-proxy:v1.13.3
+docker rmi kainonly/kube-proxy:tag
 ```
